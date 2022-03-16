@@ -7,12 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Petr Kučera</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <style>
+        @font-face {
+            font-family: 'CaskaydiaCove Nerd Font';
+            src: url('fonts/Caskaydia-Cove-Nerd-Font-Complete.eot');
+            src: url('fonts/Caskaydia-Cove-Nerd-Font-Complete.eot?#iefix') format('embedded-opentype'),
+                url('fonts/Caskaydia-Cove-Nerd-Font-Complete.woff2') format('woff2'),
+                url('fonts/Caskaydia-Cove-Nerd-Font-Complete.woff') format('woff'),
+                url('fonts/Caskaydia-Cove-Nerd-Font-Complete.ttf') format('truetype'),
+                url('fonts/Caskaydia-Cove-Nerd-Font-Complete.svg#CaskaydiaCove Nerd Font') format('svg');
+        }
+
+        body {
+            font-family: 'CaskaydiaCove Nerd Font';
+            font-weight: Book;
+        }
+    </style>
 </head>
 
-<body>
+<body class="bg-black text-white">
     <main>
         <div>
-            <img src="/profile.webp" alt="The Petr's crazy profile photo with violoncello." class="max-w-xs"/>
+            <img src="/profile.webp" alt="The Petr's crazy profile photo with violoncello." class="max-w-xs rounded-full" />
             <h1>Petr Kučera</h1>
         </div>
         <ul>
