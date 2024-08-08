@@ -127,7 +127,6 @@ a {
 .description {
   font-size: 1.3rem;
   line-height: 1.7rem;
-  
 }
 
 .contact {
@@ -145,6 +144,7 @@ a {
 
 .footer {
   margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .footer a {
