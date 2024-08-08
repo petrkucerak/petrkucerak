@@ -34,7 +34,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  
+
   text-rendering: optimizeLegibility;
 }
 
@@ -68,6 +68,7 @@ a {
   align-items: center;
   justify-content: space-around;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .nav-link {
