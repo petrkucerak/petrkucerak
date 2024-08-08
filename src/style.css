@@ -81,6 +81,8 @@ a {
   width: 85vw;
   max-width: 800px;
 
+  margin-top: 2rem;
+
   display: flex;
   flex-direction: column-reverse;
 }
